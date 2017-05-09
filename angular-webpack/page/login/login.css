@@ -1,0 +1,144 @@
+.login-form {
+	width: 400px;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	box-shadow: 5px 5px 10px #e5e5e5;
+	text-align: center;
+}
+
+input {
+	padding: 8px;
+	border: 1px solid #e5e5e5;
+	border-radius: 4px;
+}
+
+.row {
+	margin-bottom: 15px;
+}
+
+.login-h3 {
+	padding: 10px;
+	font-style: italic;
+}
+
+table td {
+	border: 1px solid #ddd;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.mainpage {
+  width: 670px;
+  /*height: 975px;*/
+  margin: auto;
+  font-family: 'å®‹ä½“';
+}
+
+.mainpage .page-title {
+  font-weight: 700;
+}
+
+.mainpage-inner {
+  width: 670px;
+}
+
+.mainpage-inner thead > tr > th,
+.mainpage-inner tbody > tr > td,
+.as-td {
+  border: 1px solid #000;
+  padding: 4px 8px;
+  position: relative;
+  vertical-align: middle;
+}
+
+.as-td {
+  display: table-cell;
+}
+
+.mainpage-inner tbody > tr > td > p {
+  line-height: 24px;
+  margin: 0;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.mainpage-inner > table {
+  width: 668px;
+  border: 2px solid #000;
+  table-layout: fixed;
+  page-break-after: always;
+  border-collapse: collapse;
+}
+
+.subtable {
+  width: 100%;
+}
+
+.subtable tbody > tr > td {
+  border: none;
+}
+
+.subtable .middle-td {
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+}
+
+.quality-file {
+  margin-left: 85px;
+}
+
+.line-title {
+  display: inline-block;
+  width: 85px;
+  text-align: right;
+  vertical-align: top;
+  float: left;
+}
+
+.releaseSheet-approval .no-print {
+  width: 750px;
+  margin: 0 auto;
+}
+
+.releaseSheet-approval .common-step {
+  display: inline-block;
+}
+
+.releaseSheet-approval .print-btn {
+  margin: 9px 0 9px 50px;
+  display: inline-block;
+}
+
+.releaseSheet-approval .quality-file .upload-file-items .upload-file-item {
+  margin: 0;
+}
+
+.font-red {
+  color: #f00;
+}
+
+.sign-block {
+  position: absolute;
+  bottom: 0;
+}
+
+.party-info {
+  width: 314px;
+}
+
+.publish-tr td {
+  font-size: 12px;
+  text-align: center;
+}
+
+.publish-tr:not(:first-child) td {
+  border-top: none !important;
+}
+
+.publish-tr:not(:first-child) td:not(:first-child) {
+  border-left: none !important;
+}

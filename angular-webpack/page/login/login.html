@@ -1,0 +1,159 @@
+<div class="login-form">
+	<h3 class="login-h3">Login Form</h3>
+	<form>
+		<div class="row">
+			<input type="text" name="" placeholder="请输入用户名">
+		</div>
+		<div class="row">
+			<input type="password" name="" placeholder="请输入密码">
+		</div>
+		<div class="row">
+			<common-button data-className="btn-danger">登录</common-button>
+		</div>
+	</form>
+</div>
+<table>
+	<tr>
+		<td>1111</td>
+		<td>2222</td>
+		<td>3333</td>
+	</tr>
+</table>
+	
+<export-to-word data-exportscope="exportScope" data-filename="财务系统-发布单"></export-to-word>
+<div id="exportScope">
+	<style>
+		h3 {
+			text-align: center;
+		}
+		
+		table td {
+			border: 1px solid #000;
+			border-collapse: collapse;
+		}
+	</style>	
+	<div class="mainpage">
+		<h3 class="text-center page-title">美柚广告发布单</h3>
+		<form class="form-horizontal ng-pristine ng-valid" name="Form">
+	    <div class="mainpage-inner">
+	      <table class="newbasic-table tablesp seal-table" style="border: 2px solid #000;">
+	        <tbody>
+	          <tr>
+	            <td colspan="14">
+	              <p class="ng-binding">甲方按照《美柚广告代理合同》（合同编号：MY-2017-AD04084）的约定，受乙方的委托在甲方的无线资源上提供广告服务，乙方根据实际享受的广告服务向甲方支付费用。<br>备注：在无特殊约定情况下，本广告服务24小时投放开始时间为当日10时，结束时间为次日10时。</p>
+	            </td>
+	          </tr>
+	          <tr class="publish-tr" style="font-size: 12px;">
+	            <td colspan="3">客户名称</td>
+	            <td colspan="2">广告类型</td>
+	            <td colspan="3">发布位置</td>
+	            <td colspan="2">发布时间</td>
+	            <td colspan="1">天数</td>
+	            <td colspan="2">折后价</td>
+	            <td colspan="1">结算方式</td>
+	          </tr>
+	          <!-- ngRepeat: obj in pageData.plan_list --><tr ng-repeat="obj in pageData.plan_list" class="publish-tr ng-scope">
+	            <td colspan="3" class="ng-binding">娇韵诗</td>
+	            <td colspan="2" class="ng-binding">CPD广告</td>
+	            <td colspan="3" class="ng-binding">经期首页（非怀孕身份）-经期-首页FEEDS(非怀孕身份）</td>
+	            <td colspan="2">
+	              <!-- ngRepeat: duration in obj.duration --><div ng-repeat="duration in obj.duration" class="ng-scope">
+	                <div>
+	                  <span>起：</span>
+	                  <span class="ng-binding">2017/05/30 13:00</span>
+	                </div>
+	                <div>
+	                  <span>终：</span>
+	                  <span class="ng-binding">2017/05/31 00:00</span>
+	                </div>
+	              </div><!-- end ngRepeat: duration in obj.duration -->
+	            </td>
+	            <td colspan="1" class="ng-binding">1</td>
+	            <td colspan="2" class="discount"><span ng-class="{'font-red': obj.special_price == 1}" class="ng-binding">270000</span></td>
+	            <td colspan="1" class="ng-binding">折扣价</td>
+	          </tr><!-- end ngRepeat: obj in pageData.plan_list -->
+	          <tr>
+	            <td colspan="11" class="text-right" style="border-top: none;">合计：</td>
+	            <td colspan="2" style="border: none;border-bottom: 1px solid #000;text-align: center;" class="ng-binding">270000</td>
+	            <td colspan="1" style="border-top: none;"></td>
+	          </tr>
+	          <tr>
+	            <td colspan="3">
+	              <div>结算金额</div>
+	            </td>
+	            <td colspan="11">
+	              <p>本次广告投放的费用总额为人民币<span class="underline ng-binding">&nbsp;&nbsp;270000&nbsp;&nbsp;</span>元整。<br>（大写）：<span class="underline ng-binding">&nbsp;&nbsp;贰拾柒万元整&nbsp;&nbsp;</span>。</p>
+	            </td>
+	          </tr>
+	          <tr>
+	            <td colspan="3" width="21.4%">
+	              <div>支付方式</div>
+	            </td>
+	            <td colspan="11">
+	              <p>广告投放结束后，甲方根据结算费用开具发票，并将发票的原件快递至乙方，乙方应于<span class="underline ng-binding">&nbsp;&nbsp;2017&nbsp;&nbsp;</span>年<span class="underline ng-binding">&nbsp;&nbsp;05&nbsp;&nbsp;</span>月<span class="underline ng-binding">&nbsp;&nbsp;06&nbsp;&nbsp;</span>日之前将费用汇入甲方指定账户。</p>
+	            </td>
+	          </tr>
+	          <tr>
+	            <td colspan="3" width="21.4%">收款账户信息</td>
+	            <td colspan="11" style="padding: 0;">
+	              <table class="subtable" style="width: 100%;border: none;">
+	                <tbody><tr>
+	                  <td class="ng-binding">账户名称：厦门美柚信息科技有限公司</td>
+	                </tr>
+	                <tr class="middle-td">
+	                  <td class="ng-binding">开户银行：建设银行厦门科技支行</td>
+	                </tr>
+	                <tr>
+	                  <td class="ng-binding">银行账号：3510&nbsp;1504&nbsp;0000&nbsp;0000&nbsp;00</td>
+	                </tr>
+	              </tbody></table>
+	            </td>
+	          </tr>
+	          <tr>
+	            <td colspan="7">
+	              <div width="50%" class="ng-binding">甲方：厦门dd美柚信息科技有限公司</div>
+	            </td>
+	            <td colspan="7">
+	              <div width="50%" class="ng-binding">乙方：采买代理zhanghm0418</div>
+	            </td>
+	          </tr>
+	          <tr>
+	            <td colspan="7" style="vertical-align: top;">
+	              <div class="party-info">
+	                <p class="ng-binding">地址：福建省厦门市思明区软件园2期望海路4号103</p>
+	                <p class="ng-binding">邮政编码：361000</p>
+	                <p class="ng-binding">联系人：张虹梅</p>
+	                <p class="ng-binding">电话：15860765925</p>
+	                <p class="ng-binding">E-Mail：152499300@qq.com</p>
+	                <br>
+	                <br>
+	                <br>
+	                <div class="sign-block">
+	                  <p>授权代表： （盖章）</p>
+	                  <p class="ng-binding">签署日期：2017&nbsp;年&nbsp;05&nbsp;月&nbsp;04&nbsp;日
+	                </p></div><p></p>
+	              </div>
+	            </td>
+	            <td colspan="7" style="vertical-align: top;">
+	              <div class="party-info">
+	                <p class="ng-binding">地址：山东省淄博市eefcv</p>
+	                <p class="ng-binding">邮政编码：565555</p>
+	                <p class="ng-binding">联系人：zhanghongmei</p>
+	                <p class="ng-binding">电话：15860765925</p>
+	                <p class="ng-binding">E-Mail：152499300@qq.com</p>
+	                <br>
+	                <br>
+	                <br>
+	                <div class="sign-block">
+	                  <p>授权代表： （盖章）</p>
+	                  <p>签署日期：&nbsp;&nbsp;年&nbsp;&nbsp;月&nbsp;&nbsp;日</p>
+	                </div>
+	              </div>
+	            </td>
+	          </tr>
+	        </tbody>
+	      </table>
+	    </div>
+	  </form>
+	</div>
+</div>
